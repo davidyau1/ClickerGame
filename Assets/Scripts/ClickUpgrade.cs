@@ -9,9 +9,21 @@ public class ClickUpgrade : MonoBehaviour
     int upgradeClickCost = 20;
     int increaseClick = 1;
     public Text upgradeClickCostText;
+    public Button upgradeClickCostButton;
     private void Start()
     {
         UpdateText();
+    }
+    public void Update()
+    {
+        if (GameManager.dollars<upgradeClickCost)
+        {
+            upgradeClickCostButton.interactable = false;
+        }
+        else
+        {
+            upgradeClickCostButton.interactable=true;
+        }
     }
     public void Clicked()
     {
@@ -29,6 +41,7 @@ public class ClickUpgrade : MonoBehaviour
         }
         else
         {
+
             Debug.Log("not enough cookies");
         }
     }

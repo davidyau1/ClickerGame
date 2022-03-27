@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 418056817}
   - component: {fileID: 418056816}
   m_Layer: 5
-  m_Name: Upgrade1 DPS (3)
+  m_Name: Upgrade4 DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -831,6 +831,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amountText: {fileID: 964804123}
+  upgrade1: {fileID: 1731439323}
+  upgrade2: {fileID: 2119003936}
+  upgrade3: {fileID: 1307035901}
+  upgrade4: {fileID: 418056814}
+  upgradeText1: {fileID: 1119343457}
+  upgradeText2: {fileID: 2016341852}
+  upgradeText3: {fileID: 892192614}
+  upgradeText4: {fileID: 402228722}
 --- !u!4 &492860299
 Transform:
   m_ObjectHideFlags: 0
@@ -843,7 +851,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -992,7 +1000,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &653375327
 GameObject:
@@ -1167,7 +1175,7 @@ RectTransform:
   - {fileID: 653375328}
   - {fileID: 2060605089}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1627,7 +1635,7 @@ GameObject:
   - component: {fileID: 1307035904}
   - component: {fileID: 1307035903}
   m_Layer: 5
-  m_Name: Upgrade1 DPS (2)
+  m_Name: Upgrade3 DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1838,6 +1846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgradeClickCostText: {fileID: 1797105923}
+  upgradeClickCostButton: {fileID: 1330970263}
 --- !u!1 &1424871337
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,7 +2638,7 @@ GameObject:
   - component: {fileID: 2119003939}
   - component: {fileID: 2119003938}
   m_Layer: 5
-  m_Name: Upgrade1 DPS (1)
+  m_Name: Upgrade2 DPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
