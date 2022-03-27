@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 402228723}
   - component: {fileID: 402228722}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Upgrade4 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -811,6 +811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492860299}
   - component: {fileID: 492860298}
+  - component: {fileID: 492860300}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -853,6 +854,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &492860300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492860297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dea7008af6f0e941bde190fc3c05355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgrade1: {fileID: 1731439323}
+  upgrade2: {fileID: 2119003936}
+  upgrade3: {fileID: 1307035901}
+  upgrade4: {fileID: 418056814}
+  upgradeText1: {fileID: 1119343457}
+  upgradeText2: {fileID: 2016341852}
+  upgradeText3: {fileID: 892192614}
+  upgradeText4: {fileID: 402228722}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1294,7 @@ GameObject:
   - component: {fileID: 892192615}
   - component: {fileID: 892192614}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Upgrade3 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,7 +1575,7 @@ GameObject:
   - component: {fileID: 1119343458}
   - component: {fileID: 1119343457}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Upgrade1 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2398,7 +2419,7 @@ GameObject:
   - component: {fileID: 2016341853}
   - component: {fileID: 2016341852}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Upgrade2 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
