@@ -16,14 +16,14 @@ public class PassiveUpgrades : MonoBehaviour
     public Text upgradeText2;
     public Text upgradeText3;
     public Text upgradeText4;
-    public bool showUpgrade1;
-    public bool showUpgrade2;
-    public bool showUpgrade3;
-    public bool showUpgrade4;
+    public static bool showUpgrade1;
+    public static bool showUpgrade2;
+    public static bool showUpgrade3;
+    public static bool showUpgrade4;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -40,19 +40,19 @@ public class PassiveUpgrades : MonoBehaviour
 
 
     }
-    void Upgrade1()
+    public void ClickUpgrade1()
     {
 
     }
-    void Upgrade2()
+    public void ClickUpgrade2()
     {
 
     }
-    void Upgrade3()
+    public void ClickUpgrade3()
     {
 
     }
-    void Upgrade4()
+    public void ClickUpgrade4()
     {
 
     }

@@ -16,10 +16,12 @@ public class ClickUpgrade : MonoBehaviour
     }
     public void Update()
     {
+        //if not enough money buttons is not interactable
         if (GameManager.dollars<upgradeClickCost)
         {
             upgradeClickCostButton.interactable = false;
         }
+        //otherwise allow interactive button
         else
         {
             upgradeClickCostButton.interactable=true;
@@ -42,12 +44,12 @@ public class ClickUpgrade : MonoBehaviour
         else
         {
 
-            Debug.Log("not enough cookies");
         }
     }
     //function to update button text
     private void UpdateText()
     {
+        //display the increase in click and price to purchase upgrade
         upgradeClickCostText.text = "Increase Click by $"+increaseClick+ "\n" +"Cost $" + upgradeClickCost;
 
     }

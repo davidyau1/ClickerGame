@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 133646805}
   - component: {fileID: 133646804}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Passive3Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 133646805}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 492860300}
+        m_TargetAssemblyTypeName: PassiveUpgrades, Assembly-CSharp
+        m_MethodName: ClickUpgrade3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &133646805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +348,7 @@ GameObject:
   - component: {fileID: 253602105}
   - component: {fileID: 253602104}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Passive1Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +417,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 253602105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 492860300}
+        m_TargetAssemblyTypeName: PassiveUpgrades, Assembly-CSharp
+        m_MethodName: ClickUpgrade1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &253602105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,7 +560,7 @@ GameObject:
   - component: {fileID: 338082363}
   - component: {fileID: 338082362}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Passive4Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -605,7 +629,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 338082363}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 492860300}
+        m_TargetAssemblyTypeName: PassiveUpgrades, Assembly-CSharp
+        m_MethodName: ClickUpgrade4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &338082363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,14 +868,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amountText: {fileID: 964804123}
-  upgrade1: {fileID: 1731439323}
-  upgrade2: {fileID: 2119003936}
-  upgrade3: {fileID: 1307035901}
-  upgrade4: {fileID: 418056814}
-  upgradeText1: {fileID: 1119343457}
-  upgradeText2: {fileID: 2016341852}
-  upgradeText3: {fileID: 892192614}
-  upgradeText4: {fileID: 402228722}
 --- !u!4 &492860299
 Transform:
   m_ObjectHideFlags: 0
@@ -1455,7 +1483,7 @@ GameObject:
   - component: {fileID: 1044775083}
   - component: {fileID: 1044775082}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Passive2Upgrade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1524,7 +1552,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1044775083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 492860300}
+        m_TargetAssemblyTypeName: PassiveUpgrades, Assembly-CSharp
+        m_MethodName: ClickUpgrade2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1044775083
 MonoBehaviour:
   m_ObjectHideFlags: 0

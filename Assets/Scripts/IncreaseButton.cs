@@ -13,7 +13,6 @@ public class IncreaseButton : MonoBehaviour
     public void Clicked()
     {
         GameManager.dollars += clickValue;
-        Debug.Log(GameManager.dollars);
     }
     public void Update()
     {
