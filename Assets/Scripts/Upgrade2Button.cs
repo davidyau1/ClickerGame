@@ -4,9 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Upgrade2Button : MonoBehaviour
 {
-    int upgradeCost=250;
+    //upgrade cost
+    int upgradeCost = 250;
+    //upgrade benefit per second
     int increaseDPS = 10;
+    //button text
     public Text upgradeButtonText;
+    //button
     public Button upgradeButton;
     private void Start()
     {
@@ -16,7 +20,7 @@ public class Upgrade2Button : MonoBehaviour
     public void Update()
     {
 
-     
+
         //if not enough money buttons is not interactable
         if (GameManager.dollars < upgradeCost)
         {
@@ -41,7 +45,10 @@ public class Upgrade2Button : MonoBehaviour
             upgradeCost += 20;
             //updates button text
             UpdateText();
+            //display upgrades
             PassiveUpgrades.showUpgrade2 = true;
+            //count times upgraded
+            PassiveUpgrades.timesUpgraded2++;
         }
         else
         {
@@ -52,7 +59,7 @@ public class Upgrade2Button : MonoBehaviour
     private void UpdateText()
     {
         //display the increase in click and price to purchase upgrade
-        upgradeButtonText.text = "Increase $" + increaseDPS+"/sec" + "\n" + "Cost $" + upgradeCost;
+        upgradeButtonText.text = "Hire Knight for $" + upgradeCost + "\n" + "Increase $" + increaseDPS + "/sec";
 
     }
 }

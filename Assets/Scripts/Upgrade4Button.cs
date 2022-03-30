@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Upgrade4Button : MonoBehaviour
 {
-    int upgradeCost=5000;
+    //upgrade cost
+    int upgradeCost = 5000;
+    //increases in dollars per second
     int increaseDPS = 200;
-    
+    //button text
     public Text upgradeButtonText;
+    //button
     public Button upgradeButton;
     private void Start()
     {
@@ -41,7 +44,10 @@ public class Upgrade4Button : MonoBehaviour
             upgradeCost += 2000;
             //updates button text
             UpdateText();
+            //display upgrade
             PassiveUpgrades.showUpgrade4 = true;
+            //count times upgraded
+            PassiveUpgrades.timesUpgraded4++;
         }
         else
         {
@@ -51,8 +57,8 @@ public class Upgrade4Button : MonoBehaviour
     //function to update button text
     private void UpdateText()
     {
-        //display the increase in click and price to purchase upgrade
-        upgradeButtonText.text = "Increase $" + increaseDPS+"/sec" + "\n" + "Cost $" + upgradeCost;
+        //display the increase in benefit and price to purchase upgrade
+        upgradeButtonText.text = "Hire Dragon for $" + upgradeCost + "\n" + "Increase $" + increaseDPS + "/sec";
 
     }
 }

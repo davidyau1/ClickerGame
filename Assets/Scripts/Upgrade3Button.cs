@@ -41,7 +41,10 @@ public class Upgrade3Button : MonoBehaviour
             upgradeCost += 20;
             //updates button text
             UpdateText();
+            //display upgrade
             PassiveUpgrades.showUpgrade3 = true;
+            //count time upgraded
+            PassiveUpgrades.timesUpgraded3++;
         }
         else
         {
@@ -52,7 +55,7 @@ public class Upgrade3Button : MonoBehaviour
     private void UpdateText()
     {
         //display the increase in click and price to purchase upgrade
-        upgradeButtonText.text = "Increase $" + increaseDPS+"/sec" + "\n" + "Cost $" + upgradeCost;
+        upgradeButtonText.text =  "Hire Wizard for $" + upgradeCost + "\n" + "Increase $" + increaseDPS+"/sec" ;
 
     }
 }

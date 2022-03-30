@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
      // Start is called before the first frame update
     void Start()
     {
-        //calls add DPS to total every on second
+        //calls add dollars per second to total every second
         InvokeRepeating("addDPSToTotal", 0f, 1f);
     }
     //added dollars per second total

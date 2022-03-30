@@ -8,9 +8,10 @@ public class ClickUpgrade : MonoBehaviour
     // cost to upgrade
     int upgradeClickCost = 20;
     // benefit to upgrade
-    int increaseClick = 1;
-    //
+    int increaseClick = 2;
+    //button text
     public Text upgradeClickCostText;
+    //upgrade cost
     public Button upgradeClickCostButton;
     private void Start()
     {
@@ -53,7 +54,7 @@ public class ClickUpgrade : MonoBehaviour
     private void UpdateText()
     {
         //display the increase in click and price to purchase upgrade
-        upgradeClickCostText.text = "Increase Click by $"+increaseClick+ "\n" +"Cost $" + upgradeClickCost;
+        upgradeClickCostText.text = "Improve Click for $"+upgradeClickCost+"\n"+"Increase Click by $"+increaseClick;
 
     }
 }
