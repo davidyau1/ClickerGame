@@ -8,6 +8,7 @@ public class PassiveUpgrades : MonoBehaviour
     public static int upgrade2Dps;
     public static int upgrade3Dps;
     public static int upgrade4Dps;
+    public static int totalDps;
     public GameObject upgrade1;
     public GameObject upgrade2;
     public GameObject upgrade3;
@@ -29,6 +30,7 @@ public class PassiveUpgrades : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        totalDps = upgrade1Dps+upgrade2Dps+upgrade3Dps+upgrade4Dps;
         upgrade1.SetActive(showUpgrade1);
         upgrade2.SetActive(showUpgrade2);
         upgrade3.SetActive(showUpgrade3);
@@ -40,20 +42,5 @@ public class PassiveUpgrades : MonoBehaviour
 
 
     }
-    public void ClickUpgrade1()
-    {
-
-    }
-    public void ClickUpgrade2()
-    {
-
-    }
-    public void ClickUpgrade3()
-    {
-
-    }
-    public void ClickUpgrade4()
-    {
-
-    }
+  
 }

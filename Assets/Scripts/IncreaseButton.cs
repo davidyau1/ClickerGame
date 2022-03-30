@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class IncreaseButton : MonoBehaviour
 {
 
-    public static int clickValue = 1;
+    public static int clickValue = 100;
     public Text clickValueText;
 
 
